@@ -64,6 +64,9 @@ If for example, the H2 driver is on the classpath, it is equivalent to the follo
 [source,yaml]
 .application.yaml
 ----
+micronaut:
+    application:
+        ...
 datasources:
     default:
         url: jdbc:h2:mem:default;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
